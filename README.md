@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Bon-Appetit
+
+Frontend for a hypothetical cafe's website.
+Made using reactjs (with react routers) , and animate.css.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
