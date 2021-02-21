@@ -2,37 +2,76 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./img/food-bg.jpg");
+  background-size: cover;
+}
+.animate__animated.animate__tada {
+  color: rgb(255, 231, 251);
+  --animate-duration: 2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+.para {
+  font-size: large;
+  color: rgb(221, 96, 96);
+  font-family: "Lobster", cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-size: 70px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.icons {
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+a {
+  padding: 10px;
+}
+
+.homeflex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.imgabout {
+  height: 550px;
+  width: 400px;
+  border-radius: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forms {
+  background: rgb(255, 255, 255);
+  opacity: 80%;
+  height: 500px;
+  border-radius: 30px;
+}
+
+input {
+  padding: 9px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+button {
+  padding: 19px;
+  border-radius: 10px;
+  border-style: none;
+  background: radial-gradient(rgb(248, 162, 176), white);
+}
+
+.flex1 {
+  justify-content: space-around;
+  padding-right: 19px;
+}
+
+.flex2 {
+  justify-content: space-around;
 }
