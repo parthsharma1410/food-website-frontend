@@ -1,6 +1,6 @@
 # Bon-Appetit
 
-### Frontend for a hypothetical cafe's website.\
+### Frontend for a hypothetical cafe's website.
 Made using reactjs (with react routers) , and animate.css too.
 
 ## Getting Started with Create React App
